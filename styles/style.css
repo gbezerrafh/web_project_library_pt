@@ -320,11 +320,13 @@
   /* Adicione estilos */
   display: flex;
   justify-content: center;
+  column-gap: 40px;
 }
 
 .step {
   /* Adicione estilos */
   flex-wrap: wrap;
+  flex-basis: auto;
   padding-left: 40px;
   width: 200px;
 }
@@ -371,6 +373,7 @@
 .footer__logo {
   padding: 20px 0 100px 0;
   width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
@@ -390,6 +393,8 @@
 .footer__column-link {
   color: #ffffff;
   text-decoration: none;
+  display: inline;
+  align-items: flex-end;
 }
 
 .footer__social-icon {
@@ -399,5 +404,6 @@
 }
 
 .footer__copyright {
-  padding: 0 0 60px 80px;
+  /* padding: 0 0 60px 80px; */
+  margin-top: 100px;
 }
