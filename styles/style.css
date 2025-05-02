@@ -326,9 +326,8 @@
 .step {
   /* Adicione estilos */
   flex-wrap: wrap;
-  flex-basis: auto;
+  flex-basis: 220px;
   padding-left: 40px;
-  width: 200px;
 }
 
 .step__title {
@@ -352,6 +351,10 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #ffffff;
+  padding-left: 80px;
+  padding-right: 0;
+  padding-top: 100px;
+  padding-bottom: 60px;
 }
 
 .footer__columns {
@@ -393,17 +396,16 @@
 .footer__column-link {
   color: #ffffff;
   text-decoration: none;
-  display: inline;
-  align-items: flex-end;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
-  /* padding: 0 0 60px 80px; */
   margin-top: 100px;
 }
